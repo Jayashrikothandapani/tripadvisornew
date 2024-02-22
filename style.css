@@ -1,0 +1,235 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 20px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*navbar*/
+.navbar {
+    margin: 50px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: transparent;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    z-index: 1;
+   
+    
+}
+
+.navbar__1 img {
+    width: 150px;
+}
+
+.navbar__2 {
+    display: flex;
+    gap: 40px;
+    position: absolute;
+}
+
+.navbar__2-1:hover {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+
+.navbar__2-2:hover {
+    text-decoration: underline;
+}
+
+.navbar__3 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.navbar__3 button {
+    padding: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+
+}
+
+/*menubar*/
+.heading {
+    text-align: center;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.menu {
+    margin: 25px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    display: flex;
+}
+
+.menu h5 {
+    font-size: 16px;
+    padding: 3px;
+}
+
+.menu h5:hover {
+    text-decoration: underline;
+}
+
+/*search bar*/
+.search {
+    border: solid grey 1px;
+    border-radius: 30px;
+    width: 700px;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    margin-left: 260px;
+    justify-content: space-between;
+}
+
+.search__2 input {
+    border: none;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.search__2 input:focus {
+    outline: none;
+}
+
+.search__3 button {
+    background-color: #84E9BD;
+    color: #4D9F8C;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+
+}
+/*advertisement*/
+.advertisement{
+    background-color: #D8D6FB;
+    width: 1100px;
+    margin-left: 100px;
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+.advertisement img{
+    width: 100%;
+}
+/*traveller*/
+.traveller{
+    padding: 20px;
+    
+    
+}
+.traveller p{
+    padding: 5px;
+}
+.traveller__img{
+    display: flex;
+    
+    gap: 5px;
+    position: relative;
+}
+.traveller__img img{
+    width: 270px;
+    height: 270px;
+    border-radius: 20px;
+    padding: 8px;
+    z-index: 2;
+    
+}
+.traveller__img div h3{
+    position: absolute;
+    color: white;
+    padding: 10px;
+    bottom: 20px;
+    z-index: 1;
+    font-size: 25px;
+}
+/*like*/
+.like__img{
+    display: flex;
+    gap: 10px;
+}
+.like__img img{
+    width: 270px;
+    height: 270px;
+    border-radius: 20px;
+    padding: 8px;
+}
+
+/*fix*/
+.fix{
+    top: 40px;
+    left: 100px;
+    position: absolute;
+    width: 300px;
+
+}
+.fix p{
+    color: white;
+    
+}
+.fix button{
+    background-color: white;
+    border: none;
+    padding: 5px;
+
+}
+.fix h1{
+    font-size: 60px;
+}
+#ai{
+    background-color: darkblue;
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 5px;
+}
+
+/*last*/
+.lasthead{
+    background-color: #FAF1ED;
+    padding: 30px;
+}
+.last{
+    display: flex;
+    gap: 30px;
+    padding: 10px;
+    margin: 10px;
+    opacity: 0.7;
+    
+}
+.last h3{
+    font-weight: 100;
+}
+.last p:hover{
+    text-decoration: underline;
+}
+.navbar-1 img{
+    width: 130px;
+    padding-left: 100px;
+}
+
+
+@media screen and (max-width: 700px) {
+    .navbar{display: none;}
+    .navbar-1{display: block;}
+    
+}
+@media screen and (min-width: 700px) {
+    .navbar-1{display: none;}
+    
+}
